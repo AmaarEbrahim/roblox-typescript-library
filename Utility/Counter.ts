@@ -18,7 +18,7 @@ export class Counter {
      * @returns the next number in the counter
      */
     public next(): number {
-        this.Value =+ 1
+        this.Value = this.Value + 1
         return this.Value
     }
 } 
